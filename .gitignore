@@ -1,0 +1,40 @@
+.qa/
+Thumbs.db
+desktop.ini
+
+# Dependencies and temporary build files
+node_modules/
+.cache/
+coverage/
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Local environment files (keep sanitized examples shareable)
+.env
+.env.*
+!.env.example
+!.env.sample
+.envrc
+
+# Credentials and private keys
+.aws/
+.ssh/
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+service-account*.json
+
+# Local editor and agent configuration
+.vscode/
+.idea/
+.codex/
+.agents/
